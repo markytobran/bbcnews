@@ -1,0 +1,83 @@
+/*Basic CSS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #031926;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 22px;
+  font-weight: bold;
+}
+section {
+  margin-bottom: 50px;
+  margin: 22px;
+}
+
+#container {
+  max-width: 1300px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.heading {
+  height: 55vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.parael {
+  font-size: 1.25rem;
+  padding: 22px;
+}
+
+img {
+  width: 95%;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  background: white;
+}
+
+li {
+  font-size: 1rem;
+  margin-left: 22px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.title span {
+  color: lightblue;
+}
+
+.title h1 {
+  color: white;
+}
